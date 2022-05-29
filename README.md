@@ -37,7 +37,7 @@ As always, `addEventListener` takes a `String` with the name of the
 event and a _callback function_.
 
 ```js
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   console.log("The DOM has loaded");
 });
 ```
@@ -47,7 +47,7 @@ immediately. In fact, you can confirm this yourself by putting a second
 `console.log()` _outside_ of the event listener callback:
 
 ```js
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   console.log("The DOM has loaded");
 });
 
